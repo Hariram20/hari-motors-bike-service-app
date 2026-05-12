@@ -26,7 +26,7 @@ function Booking() {
     try {
 
       const response = await axios.post(
-        "http://localhost:3000/book-service",
+        "https://hari-motors-bike-service-app.onrender.com/book-service",
         formData
       );
 

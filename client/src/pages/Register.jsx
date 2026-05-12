@@ -25,7 +25,7 @@ function Register() {
   try {
 
     const response = await axios.post(
-      "http://localhost:3000/register",
+      "https://hari-motors-bike-service-app.onrender.com/register",
       formData
     );
 
