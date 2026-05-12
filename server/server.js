@@ -10,7 +10,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://hari-motors-bike-service-app-utan.vercel.app",
+    origin: "https://hari-motors-bike-service-app-utan-ctodoyv9u-hariram20s-projects.vercel.app/",
     credentials: true,
   })
 );
