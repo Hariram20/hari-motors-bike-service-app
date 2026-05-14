@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 function Dashboard() {
+
+  const navigate = useNavigate();
 
   return (
 
@@ -10,7 +14,7 @@ function Dashboard() {
 
       <button
   onClick={() => {
-    window.location.href = "/booking";
+    navigate("/booking");
   }}
   className="bg-green-600 text-white px-6 py-3 rounded-lg mb-4"
 >
@@ -22,7 +26,7 @@ function Dashboard() {
 
           localStorage.removeItem("token");
 
-          window.location.href = "/login";
+          navigate("/login");
         }}
         className="bg-red-600 text-white px-6 py-3 rounded-lg"
       >
